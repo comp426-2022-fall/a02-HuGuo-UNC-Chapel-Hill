@@ -74,13 +74,14 @@ const data = await response.json();
 // console.log(data);
 let dayPhase = 'tomorrow';
 
-if (args.d) {
+if (args.d != 1) {
     // console.log(data.daily.precipitation_hours);
-    const day = parseInt(args.d);
+    // console.log("test")
+    const day = args.d;
     if (day > 0) {
         console.log(day);
     }
-    if (day === 0) {
+    if (day == 0) {
         dayPhase = 'today';
     } else if (day > 1) {
         dayPhase = "in " + args.d + " days";
