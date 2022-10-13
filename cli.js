@@ -91,7 +91,7 @@ if (args.d) {
         console.log(`You probably nedd your galoshes ${dayPhase}`);
     }
 } else {
-    console.log(data.daily.precipitation_hours);
+    // console.log(data.daily.precipitation_hours);
    
     if (data.daily.precipitation_hours[1] == "0") {
         console.log(`You probably won\'t your galoshes in ${dayPhase}`);
