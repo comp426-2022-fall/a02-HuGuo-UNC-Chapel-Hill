@@ -96,7 +96,7 @@ if (args.d) {
     if (data.daily.precipitation_hours[1] == "0") {
         console.log(`You probably won\'t your galoshes in ${dayPhase}`);
     } else {
-        console.log(`You probably  need your galoshes ${dayPhase}`);
+        console.log(`You probably need your galoshes ${dayPhase}`);
     }
 }
 
