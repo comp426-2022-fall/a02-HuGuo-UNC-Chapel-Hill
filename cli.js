@@ -119,10 +119,10 @@ if (args.j) {
         console.log(data);
     } catch(err) {
         process.exitCode = 1;
-        console.log('exitcode = 1');
+        // console.log('exitcode = 1');
     } finally {
         process.exitCode = 0;
-        console.lof('exitcode = 0')
+        // console.lof('exitcode = 0')
     }
 
 }
